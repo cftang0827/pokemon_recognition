@@ -1,7 +1,9 @@
+#coding=utf-8
 import os 
+
 from shutil import copyfile
 
-f = open('data_info.txt', 'r')
+f = open('data_info.txt', 'r', encoding='UTF-8')
 raw_data = {}
 
 while True:
